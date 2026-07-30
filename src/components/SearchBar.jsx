@@ -1,4 +1,4 @@
-function Navbar() {
+function SearchBar() {
   return (
     <nav>
       <h2>Event Management System</h2>
@@ -6,4 +6,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default SearchBar;

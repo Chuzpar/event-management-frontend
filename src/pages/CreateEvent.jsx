@@ -1,5 +1,5 @@
-function Home() {
-  return <h1>Home</h1>;
+function CreateEvent() {
+  return <h1>Create Event</h1>;
 }
 
-export default Home;
+export default CreateEvent;

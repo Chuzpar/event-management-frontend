@@ -1,5 +1,5 @@
-function Home() {
-  return <h1>Home</h1>;
+function NotFound() {
+  return <h1>404 - Page Not Found</h1>;
 }
 
-export default Home;
+export default NotFound;

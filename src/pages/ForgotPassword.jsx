@@ -1,5 +1,5 @@
-function Home() {
-  return <h1>Home</h1>;
+function ForgotPassword() {
+  return <h1>Forgot Password</h1>;
 }
 
-export default Home;
+export default ForgotPassword;

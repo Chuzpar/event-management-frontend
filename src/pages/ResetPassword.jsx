@@ -1,5 +1,5 @@
-function Home() {
-  return <h1>Home</h1>;
+function ResetPassword() {
+  return <h1>Reset Password</h1>;
 }
 
-export default Home;
+export default ResetPassword;
