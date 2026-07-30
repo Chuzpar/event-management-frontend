@@ -1,16 +1,27 @@
+import { Link } from "react-router-dom";
+import "./Navbar.css";
+
 function Navbar() {
   return (
-    <nav>
-      <h2>EventHub</h2>
+    <nav className="navbar">
+      <div className="logo">
+        <div className="logo-icon"></div>
+        <h2>Eventide</h2>
+      </div>
 
-      <ul>
-        <li>Home</li>
-        <li>Events</li>
-        <li>About</li>
-        <li>Contact</li>
+      <ul className="nav-links">
+        <li>
+          <Link to="/">✨ Discover</Link>
+        </li>
+
+        <li>
+          <Link to="/events">◈ My Events</Link>
+        </li>
+
+        <li>
+          <Link to="/create-event">+ Create Event</Link>
+        </li>
       </ul>
-
-      <button>Login</button>
     </nav>
   );
 }
