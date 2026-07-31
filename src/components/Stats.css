@@ -1,0 +1,28 @@
+.stats{
+    width:95%;
+    margin:100px auto;
+}
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.stat-card{
+    background:#11111d;
+    border:1px solid #25253a;
+    border-radius:20px;
+    padding:40px;
+    text-align:center;
+}
+
+.stat-card h2{
+    color:#ffb100;
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+.stat-card p{
+    color:#b6b6d0;
+}
