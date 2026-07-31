@@ -1,10 +1,10 @@
 import { Navigate } from "react-router-dom";
+import { useAuth } from "../context/AuthContext";
 
 function ProtectedRoute({ children }) {
-  // Temporary authentication
-  const isAuthenticated = true;
+  const { user } = useAuth();
 
-  return isAuthenticated ? children : <Navigate to="/login" replace />;
+  return user ? children : <Navigate to="/login" replace />;
 }
 
 export default ProtectedRoute;
